@@ -11,7 +11,7 @@ int main(){
         while(j>0 && v[j-1]>v[j]){  //write condition in while loop so that best case-O(n). when everything is sorted and we run this it doesnt get in the while loop only.
             
             swap(v[j-1],v[j]);
-        
+
             j--;
 
         }
