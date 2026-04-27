@@ -1,5 +1,5 @@
 //Given an integer n, return all binary strings of length n that do not contain consecutive 1s. Return the result in lexicographically increasing order.
-
+//1)
 class Solution {
 public:
     bool check1s(string tocheck){
